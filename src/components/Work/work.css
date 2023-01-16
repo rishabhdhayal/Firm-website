@@ -1,0 +1,27 @@
+.work
+{
+    width: 100%;
+    text-align: center;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: rgb(249, 249, 249);
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.work h1{
+    font-size: 2rem;
+    margin-bottom: 10px;
+        color: rgb(35, 35, 35);
+        font-weight: 600;
+}
+.work h4{
+    margin: 0px;
+        font-size: 1.1rem;
+        color: rgb(88, 88, 88);
+        font-weight: 500;
+        padding: 0px 20px;
+}
+.workCards
+{
+    height: max-content;
+}

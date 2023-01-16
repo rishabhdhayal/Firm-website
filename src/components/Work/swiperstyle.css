@@ -1,0 +1,104 @@
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    background-color: rgb(249, 249, 249);
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+.workcard{
+  display: block;
+  width: 60%;
+  height: max-content;
+  object-fit: cover;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  box-shadow: 0px 0px 20px 15px rgb(176 176 176 / 21%);
+  border-radius: 10px;
+
+}
+.workimg{
+  width: 45%;
+  height: auto;
+  padding: 30px;
+}
+.worktext{
+  width: 40%;
+  height: auto;
+  /* background-color: rgb(184, 184, 184); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.worktitle
+{
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.worktext p{
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 1024px){
+  .workcard{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .workimg{
+    width: 50%;
+  }
+  .worktext{
+    width: auto;
+    margin:  00px 20px 20px 20px;
+    padding-top: 20px;
+    border-top: 2px solid rgb(220, 220, 220);
+  }
+}
+@media only screen and (max-width: 600px){
+  .worktext p{font-size: 0.9rem;}
+  .workimg{
+    width: 80%;
+  }
+  .worktext{
+    width: auto;
+    padding-top: 20px;
+    margin:  20px 20px 20px 20px;
+    border-top: 2px solid rgb(220, 220, 220);
+    font-size: 0.7rem;
+  }
+  .workcard{width: 70%;}
+}
